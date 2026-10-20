@@ -116,3 +116,10 @@ ckpt  = torch.load("best_ff_model.pt", map_location="cpu")
 model.load_state_dict(ckpt["model_state"])
 model.eval()
 ```
+## Authors
+Didar Rakhimbay, Beibars Ybraiakhyn, Alim Daniyarov, Dias Akimbay
+Nazarbayev University MSc in Robotics students
+
+## License
+
+MIT — see [LICENSE](LICENSE).
