@@ -2,8 +2,7 @@
 
 ## Algorithm
 
-Implements **Hinton's Forward-Forward Algorithm (2022)** — no global backpropagation
-through the feature layers. Instead:
+The algorithm uses training model for Caltech-256 dataset by applying **Hinton's Forward-Forward Algorithm (2022)** with no global backpropagation through the feature layers. Instead, it uses:
 
 1. Each conv layer trains itself with a **local binary loss on "goodness"**
    - Goodness = mean of squared post-ReLU activations
