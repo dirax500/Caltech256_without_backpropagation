@@ -118,6 +118,7 @@ model.eval()
 ```
 ## Authors
 Didar Rakhimbay, Beibars Ybraiakhyn, Alim Daniyarov, Dias Akimbay
+
 Nazarbayev University MSc in Robotics students
 
 ## License
